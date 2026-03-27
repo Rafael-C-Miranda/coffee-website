@@ -1,5 +1,4 @@
 :root {
-    /* É usado para criar variáveis globais (que funcionam no site todo). */
     --main-color: #d3ad7f;
     --black: #13131a;
     --bg: #010103;
@@ -9,28 +8,20 @@
 
 * {
     margin: 0;
-    /* Remove o espaço externo dos elementos. */
     padding: 0;
-    /* Remove o espaço interno dos elementos. */
     outline: none;
-    /* Remove o contorno que aparece quando você clica ou seleciona algo (tipo botão ou input). */
     border: none;
-    /* Remove qualquer borda dos elementos. */
     text-decoration: none;
-    /* Remove decoração de texto (sublinhado). */
     text-transform: capitalize;
-    /* Transforma a primeira letra de cada palavra em maiúscula. */
     transition: 0.2s linear;
-    /* Botão muda de cor suavemente ao passar o mouse */
     font-family: "Nunito", sans-serif;
 }
 
 body {
     background-color: var(--bg);
     height: 200vh;
-    /* Define a altura do corpo para 200% da altura da janela de visualização, permitindo rolagem vertical. */
     padding-top: 80px;
-    /* Ajusta conforme o tamanho do header */
+    
 }
 
 section {
@@ -40,7 +31,6 @@ section {
 }
 
 .header {
-    /* Configurações do cabeçalho, para deixá-lo fixo */
     position: fixed;
     top: 0;
     left: 0;
@@ -65,7 +55,6 @@ section {
 }
 
 .navbar a:hover {
-    /* Estilo do link ao passar o mouse */
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
     padding-bottom: 0.5rem;
@@ -78,7 +67,6 @@ section {
 }
 
 .icons img:hover {
-    /* Estilo do ícone ao passar o mouse */
     width: 40px;
     height: 40px;
 }
@@ -200,7 +188,6 @@ section {
 }
 
 .menu .box-container .box:hover {
-    /* Efeito de hover para a caixa */
     background-color: #fff;
 }
 
@@ -262,7 +249,6 @@ section {
 }
 
 .footer .share img:hover {
-    /* Efeito de hover para os ícones de compartilhamento */
     background-color: var(--main-color);
 }
 
